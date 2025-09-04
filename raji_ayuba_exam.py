@@ -121,7 +121,7 @@ def Solution_3():
 
     while True:
         age = input("Enter your age (or type exit to quit): ")
-        if age == exit:
+        if age == "exit":
             print("Goodbye!")
             break
         
