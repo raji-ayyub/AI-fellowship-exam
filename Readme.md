@@ -25,7 +25,5 @@ This repository contains materials and resources for the AI Fellowship Exam.
 
 4. question 3, I used ValueError: to except to check invalid value, then placed age in int() during try loop to convert input only during checking age limit.
 
-## License
 
-This project is licensed under the MIT License.
 

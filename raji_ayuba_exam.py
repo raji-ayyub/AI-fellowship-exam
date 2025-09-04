@@ -20,8 +20,11 @@ def Solution_1():
         return result
 
     def divide(a, b):
-        result = a / b
-        return result
+        try:
+            result = a / b
+            return result
+        except ZeroDivisionError:
+            print("Cannot Divide by zero")
 
 
     while True:
